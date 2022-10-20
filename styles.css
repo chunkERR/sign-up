@@ -1,0 +1,89 @@
+body {
+  color: #fff;
+  font-family: monospace, serif;
+  letter-spacing: 0.05em;
+  background-image: url(back.jpeg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1, h2 {
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    float: right;
+    margin-right: -20px;
+    margin-top: -10px;
+    display: flex;
+
+    
+}
+form {
+    background-color: black;
+    width: 75%;
+    margin: auto;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    padding: 10px;
+    float: right;
+    margin-right: -20px;
+}
+
+input {
+    width: 50em;
+    padding: 14px 16px;
+    background: transparent;
+    color: #fff;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, .6);
+}
+input:hover{
+      outline: none;
+      border: 2px solid rgba(255, 255, 255, 1);
+    transition: 0.7s;
+
+    }
+input:focus {
+    outline:none;
+    border: 2px solid rgba(255, 87, 255, 1);
+    transition-delay: 5ms;
+
+}
+
+
+#createaccnt {
+  width: 500px;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, .6);
+  margin: auto;
+
+
+}
+
+#createaccnt:hover {
+        border: 2px solid rgba(255, 255, 255, 1);
+        background-color: rgba(255, 87, 51, 1);
+        transition: 0.7s;
+  
+      }
+
+
+.legend {
+    background-color: white;
+    color: black;
+
+}
